@@ -1,3 +1,5 @@
+const { skeleton } = require('@skeletonlabs/tw-plugin');
+
 /** @type {import('tailwindcss').Config} */
 const config = {
 	darkMode: 'class',
@@ -11,7 +13,9 @@ const config = {
 	plugins: [
 		require('@tailwindcss/forms'),
 		require('@tailwindcss/typography'),
-		...require('@skeletonlabs/skeleton/tailwind/skeleton.cjs')(),
+		skeleton({
+			themes: { preset: ['wintry'] },
+		}),
 	],
 };
 

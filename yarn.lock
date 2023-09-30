@@ -648,13 +648,17 @@
     fflate "^0.7.3"
     string.prototype.codepointat "^0.2.1"
 
-"@skeletonlabs/skeleton@1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@skeletonlabs/skeleton/-/skeleton-1.8.0.tgz#1842df76272c24903977fa018b3067c7476c6e1a"
-  integrity sha512-dO4ukU34MGUY1yA1Gln+YUFEEew25AHm6GMpbzCOX8p8b9NmVBWiSuF3me9jnbrV15TGJxmUGzdiRN/70b4KIg==
+"@skeletonlabs/skeleton@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@skeletonlabs/skeleton/-/skeleton-2.2.0.tgz#700a18e4a4203bae91e842577598ed38da93221c"
+  integrity sha512-pSi1yeZo1tsGnMqbBeTfTxfEqcZUM1n9RT/7KQVSiBcENB9L0kesbkv5TlZhW6MxOwf0QRVfkaeCc5ymz4/OHw==
   dependencies:
     esm-env "1.0.0"
-    svelte "3.58.0"
+
+"@skeletonlabs/tw-plugin@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@skeletonlabs/tw-plugin/-/tw-plugin-0.2.1.tgz#d6b39804bcf02b20e201d90b04d79451241aa204"
+  integrity sha512-F4Eq/0bxUOlhzgxU6zQJCMSe+cYJcN8HyjuG46mspNuOlSEc2CWgkjqgO/bHwkDBaQb66eQZsEFsfE11cd/PuA==
 
 "@supabase/auth-helpers-shared@0.3.4":
   version "0.3.4"
