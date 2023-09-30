@@ -1,0 +1,13 @@
+{
+	"name": "clementine",
+	"private": true,
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"scripts": {
+		"dev": "yarn workspace web dev",
+		"og": "yarn workspace og dev",
+		"docs": "yarn workspace docs dev"
+	}
+}
